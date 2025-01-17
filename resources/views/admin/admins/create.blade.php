@@ -68,7 +68,7 @@
             <div class="mb-3">
                 <label for="avatar" class="form-label">Avatar</label>
                 <div class="input-group w-50">
-                    <input id="avatar" class="form-control" type="text" name="avatar" value="{{ old('avatar', $user->avatar ?? '') }}">
+                    <input id="avatar" class="form-control" type="text" name="avatar" value="{{ old('avatar') }}">
                     <button type="button" id="lfm" data-input="avatar" data-preview="holder" class="btn btn-primary">
                         <i class="fa fa-picture-o"></i> Select
                     </button>
